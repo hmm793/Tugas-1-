@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Tambahan -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style-home.css" />
+    <!-- Font awsome  -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>My Website!</title>
+  </head>
+  <body class="bg-image">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./home.html"
+          ><i class="bi bi-bootstrap"></i> My Blog</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./home.html"
+                ><i class="bi bi-house"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html"
+                ><i class="bi bi-file-person"></i> About Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Notifikasi -->
+
+    <div class="notifikasi">
+      <div class="alert alert-warning" id="1">
+        <a href="#" class="close close-btn"
+          ><i class="far fa-window-close"></i
+        ></a>
+        <strong
+          ><i class="fad fa-info-circle"></i> The Latest post has been
+          uploaded</strong
+        >
+      </div>
+    </div>
+    <!-- Akhir Notifikasi -->
+
+    <!-- Main dan Sidebar -->
+    <div class="container main">
+      <!-- Content here -->
+      <div class="row">
+        <div class="col-md-8 satu" id="post">
+          <!-- <div class="row1 rounded-3">
+            <h2 class="judul1">Metode pengobatan efektif dengan meditasi</h2>
+            <div class="header-post">
+              <h5 class="penulis1">
+                <i class="bi bi-person-fill"></i> Posted by Oscar
+              </h5>
+              <h5 class="date">
+                <i class="bi bi-calendar-date"></i> Published Date 2021
+              </h5>
+            </div>
+
+            <div class="dinamis1">
+              <img
+                src="./assets/library/img/meditasi.jpg"
+                alt="gambar meditasi"
+                class="gambar1 rounded-3"
+              />
+              <div class="middle">
+                <a class="text" href="./post1.html">Read More</a>
+              </div>
+            </div>
+
+            <p class="penjelasan">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+              consectetur id, exercitationem dolorum officiis excepturi aliquam.
+              Maxime fugiat sapiente eaque earum sunt? Pariatur nesciunt
+              explicabo est, tempore repellendus recusandae expedita!
+            </p>
+            <a class="btn btn-secondary" href="./post1.html" role="button"
+              >Read More <i class="bi bi-arrow-right"></i
+            ></a>
+          </div> -->
+          <!-- <div class="row2 rounded-3">
+            <h2 class="judul2">Metode pengobatan efektif dengan meditasi</h2>
+            <div class="header-post">
+              <h5 class="penulis2">
+                <i class="bi bi-person-fill"></i> Posted by Oscar
+              </h5>
+              <h5 class="date">
+                <i class="bi bi-calendar-date"></i> Published Date 2021
+              </h5>
+            </div>
+
+            <div class="dinamis2">
+              <img
+                src="./assets/library/img/meditasi.jpg"
+                alt="gambar meditasi"
+                class="gambar2 rounded-3"
+              />
+              <div class="middle">
+                <a class="text" href="./post1.html">Read More</a>
+              </div>
+            </div>
+            <p class="penjelasan">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+              consectetur id, exercitationem dolorum officiis excepturi aliquam.
+              Maxime fugiat sapiente eaque earum sunt? Pariatur nesciunt
+              explicabo est, tempore repellendus recusandae expedita!
+            </p>
+            <a class="btn btn-secondary" href="./post1.html" role="button"
+              >Read More <i class="bi bi-arrow-right"></i
+            ></a>
+          </div> -->
+          <!-- <div class="row3 rounded-3">
+            <h2 class="judul3">Metode pengobatan efektif dengan meditasi</h2>
+            <div class="header-post">
+              <h5 class="penulis3">
+                <i class="bi bi-person-fill"></i> Posted by Oscar
+              </h5>
+              <h5 class="date">
+                <i class="bi bi-calendar-date"></i> Published Date 2021
+              </h5>
+            </div>
+
+            <div class="dinamis3">
+              <img
+                src="./assets/library/img/meditasi.jpg"
+                alt="gambar meditasi"
+                class="gambar3 rounded-3"
+              />
+              <div class="middle">
+                <a class="text" href="./post1.html">Read More</a>
+              </div>
+            </div>
+            <p class="penjelasan">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+              consectetur id, exercitationem dolorum officiis excepturi aliquam.
+              Maxime fugiat sapiente eaque earum sunt? Pariatur nesciunt
+              explicabo est, tempore repellendus recusandae expedita!
+            </p>
+            <a class="btn btn-secondary" href="./post1.html" role="button"
+              >Read More <i class="bi bi-arrow-right"></i
+            ></a>
+          </div> -->
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-4 dua cf">
+          <!-- Bagian Search-->
+          <div class="card mb-4">
+            <div class="card-header">Search</div>
+            <div class="card-body">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Search here!"
+                  aria-label="Search here!"
+                  aria-describedby="button-search"
+                />
+                <button
+                  class="btn btn-primary"
+                  id="button-search"
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Bagian Kategori-->
+          <div class="card mb-4">
+            <div class="card-header">Categories</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="kategori">
+                    <li><a href="#!">Teraphy</a></li>
+                    <li><a href="#!">Consultation</a></li>
+                    <li><a href="#!">Medicine</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="kategori">
+                    <li><a href="#!">Meditation</a></li>
+                    <li><a href="#!">Healty Life Style</a></li>
+                    <li><a href="#!">Tutorials</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tag -->
+          <div class="card mb-4">
+            <div class="card-header">Tag</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <ul class="kategori">
+                    <li><a href="#!">#Teraphy</a></li>
+                    <li><a href="#!">#Consultation</a></li>
+                    <li><a href="#!">#Medicine</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <ul class="kategori">
+                    <li><a href="#!">#Meditation</a></li>
+                    <li><a href="#!">#Healty Life Style</a></li>
+                    <li><a href="#!">#Tutorials</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recent Posts-->
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Recent Posts
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                  <div class="recent-post-1">
+                    <img
+                      class="gambar-rp-1"
+                      src="./assets/library/img/meditasi.jpg"
+                      alt="gambar meditasi"
+                    />
+                    <h1 class="judul-rp-1">
+                      <a href="./post1.html"
+                        >Metode Pengobatan Efektif dengan Meditasi</a
+                      >
+                    </h1>
+                  </div>
+                  <div class="recent-post-1">
+                    <img
+                      class="gambar-rp-1"
+                      src="./assets/library/img/meditasi.jpg"
+                      alt="gambar meditasi"
+                    />
+                    <h1 class="judul-rp-1">
+                      <a href="./post1.html"
+                        >Metode Pengobatan Efektif dengan Meditasi</a
+                      >
+                    </h1>
+                  </div>
+                  <div class="recent-post-1">
+                    <img
+                      class="gambar-rp-1"
+                      src="./assets/library/img/meditasi.jpg"
+                      alt="gambar meditasi"
+                    />
+                    <h1 class="judul-rp-1">
+                      <a href="./post1.html"
+                        >Metode Pengobatan Efektif dengan Meditasi</a
+                      >
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Main dan Sidebar -->
+
+    <!-- Bagian Footer -->
+    <div class="footer">
+      <h1 style="text-align: center; margin: 20px">
+        Copyright @2021 | Oscar Solideo Siregar
+      </h1>
+    </div>
+    <!-- Akhir Footer -->
+
+    <!-- Bawaan -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Link Notification JS -->
+    <script src="./js/script-notif.js"></script>
+    <!-- Link post JS -->
+    <script src="./js/post.js"></script>
+  </body>
+</html>

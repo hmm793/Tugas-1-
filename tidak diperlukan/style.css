@@ -1,0 +1,525 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-image: url("./img/patterns.png");
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Clear Fix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+/* Akhir Clear FIX dan CSS Reset */
+
+nav {
+  background-color: lightskyblue;
+  margin-bottom: 20px;
+}
+
+.container .row .row1 {
+  width: 80%;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.container .row .row2 {
+  width: 80%;
+  background-color: rgb(255, 183, 183);
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.container .row .row3 {
+  width: 80%;
+  background-color: rgb(194, 255, 194);
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.container .row .row4 {
+  width: 90%;
+  height: 200px;
+  background-color: palegreen;
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container .row .satu .row1 .judul1 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.container .row .satu .row1 .penulis1 {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.container .row .satu .row1 .penulis1 h5 span {
+  font-weight: bold;
+}
+
+.container .row .satu .row1 .gambar1 {
+  width: 100%;
+  margin-top: 10px;
+}
+.container .row .satu .row1 .penjelasan {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.container .row .satu .row1 .date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.container .row .satu .row2 .judul2 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.container .row .satu .row2 .penulis2 {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.container .row .satu .row2 .gambar2 {
+  width: 100%;
+  margin-top: 10px;
+}
+.container .row .satu .row2 .penjelasan {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.container .row .satu .row2 .date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.container .row .satu .row3 .judul3 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.container .row .satu .row3 .penulis3 {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.container .row .satu .row3 .gambar3 {
+  width: 100%;
+  margin-top: 10px;
+}
+.container .row .satu .row3 .penjelasan {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.container .row .satu .row3 .date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+/* Home */
+.main {
+  padding-top: 5rem;
+}
+.dinamis1 {
+  position: relative;
+  width: 100%;
+}
+.dinamis2 {
+  position: relative;
+  width: 100%;
+}
+.dinamis3 {
+  position: relative;
+  width: 100%;
+}
+
+.gambar1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.gambar2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.gambar3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dinamis1:hover .gambar1 {
+  opacity: 0.3;
+}
+
+.dinamis1:hover .middle {
+  opacity: 1;
+}
+.dinamis2:hover .gambar2 {
+  opacity: 0.3;
+}
+
+.dinamis2:hover .middle {
+  opacity: 1;
+}
+.dinamis3:hover .gambar3 {
+  opacity: 0.3;
+}
+
+.dinamis3:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: inherit;
+}
+.text:hover {
+  color: white;
+}
+
+/* Search Widget */
+.card {
+  margin-top: 10px;
+}
+.kategori li a {
+  text-decoration: none;
+}
+.card {
+  background-color: white;
+}
+.card-header {
+  background-color: beige;
+}
+.card-body {
+  background-color: lightyellow;
+}
+.accordion-button {
+  height: 10px;
+  background-color: beige;
+}
+.gambar-rp-1 {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recent-post-1 {
+  background-color: white;
+  border: 2px solid grey;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.judul-rp-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.judul-rp-1 a {
+  text-decoration: none;
+  color: black;
+}
+.judul-rp-1 a:hover {
+  text-decoration: none;
+  color: lightskyblue;
+}
+#panelsStayOpen-collapseOne {
+  background-color: beige;
+}
+
+/* Notifikasi */
+.overlay {
+  top: 50px;
+  width: 380px;
+  height: 10px;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  padding: 0;
+}
+
+/* About */
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+  text-align: center;
+}
+
+.jumbotron img {
+  width: 200px;
+  border-radius: 50%; /* Modified*/
+}
+
+/* Post 1 */
+.post-body {
+  width: 70%;
+  background-color: rgb(201, 223, 243);
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.post-body .judul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+.post-body .gambar-post {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+.post-body .paragraf1,
+.paragraf2 {
+  text-align: justify;
+  margin: 50px auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  line-height: 23px;
+  word-spacing: 2px;
+  text-indent: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.post-body h5 {
+  display: inline-block;
+  margin: 10px;
+}
+.penulis-date {
+  text-align: center;
+}
+
+/*  */
+.comment-section {
+  width: 70%;
+  background-color: rgb(201, 223, 243);
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  overflow: auto;
+}
+.comment-section .comment-view h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.comment-section .comment-view .comment-list {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comment-section .comment-view .testing {
+  margin-left: 19px;
+}
+.comment-section .comment-input {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comment-image {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 25px;
+  left: 20px;
+  margin-right: 10px;
+}
