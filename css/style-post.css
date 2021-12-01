@@ -204,7 +204,7 @@ nav {
   box-sizing: border-box;
 }
 .comment-section .comment-view h1 {
-  font-size: 2.3vw;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .comment-section .comment-view {
@@ -252,14 +252,50 @@ nav {
   #content {
     width: 100%;
   }
-  .testing {
-    font-size: 5vw;
+  .comment-section .comment-view h1 {
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
   }
   .container .row .col-md-2 p {
-    font-size: 1vw;
+    font-size: 4vw;
   }
   .container .row .col-md-7 .comment-name,
   .comment-content {
-    font-size: 3vw;
+    font-size: 4vw;
+  }
+  .comment-section {
+    padding: 0px;
+  }
+  .comment-section .comment-view {
+    margin: 0px;
+    padding-top: 20px;
+  }
+  .comment-section .comment-view .testing {
+    margin-left: 0px;
+  }
+  .comment-section .comment-view .comment-list {
+    padding: 7px;
+    font-size: 1vw;
+  }
+  .comment-image {
+    width: 10vw;
+    border-radius: 50%;
+    position: relative;
+  }
+  .comment-section .comment-input {
+    margin-left: 0px;
+    padding: 0 20px 0 20px;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .row {
+    margin: 0px;
+  }
+  .kirim {
+    margin-top: 10px;
+  }
+  .row .col-md-2 {
+    margin-bottom: 0px;
   }
 }
